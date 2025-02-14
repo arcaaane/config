@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -37,7 +37,7 @@ namespace Fish_Player_Tracker
 
             try
             {
-                Console.Title = "Fish Player Tracker Prv ~ by notfishvr";
+                Console.Title = "Azure Tracker";
 
                 if (File.Exists(sessionTicketPath)) { sessionTicket = File.ReadAllText(sessionTicketPath); }
                 if (File.Exists(playFabIdPath)) { playFabId = File.ReadAllText(playFabIdPath); }
